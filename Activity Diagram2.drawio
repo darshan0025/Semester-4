@@ -1,0 +1,120 @@
+<mxfile host="Electron" modified="2024-12-09T04:16:19.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="CZTLgIr2O1e7MMXCJc1k" version="21.6.1" type="device">
+  <diagram name="Page-1" id="XXpC0x81FYrxNlhza6C7">
+    <mxGraphModel dx="1668" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UsDip-jka2DS1lVNCC_T-6" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-8" value="View All The Accounts" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="355" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-10" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="375" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-11" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-10" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="510" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-10" edge="1">
+          <mxGeometry x="-0.5062" y="25" relative="1" as="geometry">
+            <mxPoint x="415" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-15" value="Alert&quot;No Account Found&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="510" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="555" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-18" value="Select The Accounts" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="355" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-20" value="Enter Amount" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="355" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-25" value="Deposit Amount" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="355" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-37" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="315" y="500" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-41" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.277;exitY=0.722;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-37" target="UsDip-jka2DS1lVNCC_T-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="720" as="targetPoint" />
+            <mxPoint x="460" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.864;exitY=0.265;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.439;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-37" target="UsDip-jka2DS1lVNCC_T-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453" y="720" as="targetPoint" />
+            <mxPoint x="375" y="675" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-43" value="Update Balance" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="310" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.274;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-43" edge="1" target="UsDip-jka2DS1lVNCC_T-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="820" as="targetPoint" />
+            <mxPoint x="360" y="770" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-45" value="Generate Receipt" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="435" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.441;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.865;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UsDip-jka2DS1lVNCC_T-45" edge="1" target="UsDip-jka2DS1lVNCC_T-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-47" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="315" y="610" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="sFO1KdAh_XI86tX3jHdC-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="UsDip-jka2DS1lVNCC_T-47" target="UsDip-jka2DS1lVNCC_T-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="880" as="targetPoint" />
+            <mxPoint x="415" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsDip-jka2DS1lVNCC_T-49" value="-+" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
