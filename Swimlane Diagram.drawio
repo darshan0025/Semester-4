@@ -1,0 +1,169 @@
+<mxfile host="Electron" modified="2024-12-09T04:32:31.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="9Q_aXPL6tUs8INCFbfT2" version="21.6.1" type="device">
+  <diagram name="Page-1" id="XXpC0x81FYrxNlhza6C7">
+    <mxGraphModel dx="915" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11j4nMN2jjmFDecuqz4e-3" value="Customer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="360" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-5" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry x="40" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-5" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-7" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry x="120" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-7" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="110" />
+              <mxPoint x="540" y="110" />
+              <mxPoint x="540" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-14" value="Select The FD&#39;s" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry x="50" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-24" value="See The Details Of the FD&#39;s" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry x="50" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-24" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-26" value="Invest Money in FD&#39;s" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry x="50" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-26" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-28" value="Show Contract" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-3">
+          <mxGeometry x="50" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-4" value="Bank Management System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="40" width="400" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-9" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="140" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-10" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-9" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-9" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-250" y="191.29032258064515" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="170" />
+              <mxPoint x="-250" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-12" value="Alert&quot;User Not Find FD&#39;s&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="260" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-12" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-14" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="305" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-31" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="160" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-35" value="Alert&quot;User Not Accept Contract&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="280" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-38" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="95" y="530" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.277;exitY=0.722;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="11j4nMN2jjmFDecuqz4e-4" source="11j4nMN2jjmFDecuqz4e-38" target="11j4nMN2jjmFDecuqz4e-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="590" as="targetPoint" />
+            <mxPoint x="240" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.864;exitY=0.265;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.433;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="11j4nMN2jjmFDecuqz4e-4" source="11j4nMN2jjmFDecuqz4e-38" target="11j4nMN2jjmFDecuqz4e-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233" y="590" as="targetPoint" />
+            <mxPoint x="155" y="545" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-41" value="Deduct Money From&lt;br&gt;Account" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="90" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="11j4nMN2jjmFDecuqz4e-4" source="11j4nMN2jjmFDecuqz4e-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="690" as="targetPoint" />
+            <mxPoint x="140" y="640" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-43" value="Invest Money In FD" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="215" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.441;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="11j4nMN2jjmFDecuqz4e-4" source="11j4nMN2jjmFDecuqz4e-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-45" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="95" y="690" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="11j4nMN2jjmFDecuqz4e-4" source="11j4nMN2jjmFDecuqz4e-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="11j4nMN2jjmFDecuqz4e-4">
+          <mxGeometry x="180" y="750" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-28" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610.0322580645161" y="500.01612903225805" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-31" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-34" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="11j4nMN2jjmFDecuqz4e-31">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="690" y="520" as="targetPoint" />
+            <mxPoint x="640" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-37" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="735" y="555" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="11j4nMN2jjmFDecuqz4e-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="11j4nMN2jjmFDecuqz4e-35" parent="1" target="11j4nMN2jjmFDecuqz4e-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
