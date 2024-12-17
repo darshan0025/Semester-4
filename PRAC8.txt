@@ -1,0 +1,184 @@
+-----------------------------------------------------------PART-A----------------------------------------------------------
+1. Create a new database named “Darshan”.
+use database Darshan
+switched to db database
+
+2. Create another new database named “DIET”.
+use database DIET
+already on db database
+
+3. List all databases.
+show databases
+admin    40.00 KiB
+config  108.00 KiB
+local   168.00 KiB
+todo     72.00 KiB
+
+4. Check the current database.
+use database Darshan
+already on db database
+
+5. Drop “DIET” database.
+db.dropDatabase("DIET")
+{ ok: 1, dropped: 'database' }
+
+6. Create a collection named “Student” in the “Darshan” database.
+db.createCollection("Student")
+{ ok: 1 }
+
+7. Create a collection named “Department” in the “Darshan” database.
+db.createCollection("Department")
+{ ok: 1 }
+
+8. List all collections in the “Darshan” database
+show collections
+Department
+Student
+
+9. Insert a single document using insertOne into “Department” collection. (Dname:’CE’, HOD:’Patel’)
+db.Department.insertOne({Dname:"CE", HOD:"Patel"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('67567d79eec5005c5008830d')
+}
+
+10. Insert two document using insertMany into “Department” collection. (Dname:’IT’ and Dname:’ICT’)
+db.Department.insertMany([{Dname:"IT"},{Dname:"ICT"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('67567db4eec5005c5008830e'),
+    '1': ObjectId('67567db4eec5005c5008830f')
+  }
+}
+
+11. Drop a collection named “Department” from the “Darshan” database
+db.Department.drop()
+true
+
+12. Insert a single document using insertOne into “Student” collection.
+(Fields are Name, City, Branch, Semester, Age) Insert your own data
+db.Student.insertOne({Name:"Malay",City:"Jamnagar",Branch:"CSE",Semester:"4",Age:"19"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('67567f98eec5005c50088310')
+}
+
+13. Insert three documents using insertMany into “Student” collection.
+(Fields are Name, City, Branch, Semester, Age) Insert your three friend’s data.
+db.Student.insertMany([{Name:"Kavyam",City:"Rajkot",Branch:"CSE",Semester:"4",Age:"19"},{Name:"Dhairya",City:"Rajkot",Branch:"CSE",Semester:"4",Age:"4"},{Name:"Kalp",City:"Jamnagar",Branch:"CSE",Semester:"4",Age:"19"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('67568045eec5005c50088311'),
+    '1': ObjectId('67568045eec5005c50088312'),
+    '2': ObjectId('67568045eec5005c50088313')
+  }
+}
+
+14. Check whether “Student” collection exists or not.
+show collections
+Student
+
+15. Check the stats of “Student” collection.
+db.Student.stats
+[Function: stats] AsyncFunction {
+  apiVersions: [ 0, 0 ],
+  returnsPromise: true,
+  serverVersions: [ '0.0.0', '999.999.999' ],
+  topologies: [ 'ReplSet', 'Sharded', 'LoadBalanced', 'Standalone' ],
+  returnType: { type: 'unknown', attributes: {} },
+  deprecated: false,
+  platforms: [ 'Compass', 'Browser', 'CLI' ],
+  isDirectShellCommand: false,
+  acceptsRawInput: false,
+  shellCommandCompleter: undefined,
+  help: [Function (anonymous)] Help
+}
+
+16. Drop the “Student” collection.
+db.Student.drop()
+true
+
+17. Create a collection named “Deposit”
+db.createCollection("Deposit")
+{ ok: 1 }
+
+18. Insert following data in to “Deposit” collection.
+db.Deposit.insertMany([{ACTNO:"101",CNAME:"ANIL",BNAME:"VRCE",AMOUNT:"1000.00",CITY:"Rajkot"},{ACTNO:"102",CNAME:"SUNIL",BNAME:"AJNI",AMOUNT:"5000.00",CITY:"SURAT"},{ACTNO:"103",CNAME:"MEHUL",BNAME:"KAROLBAGH",AMOUNT:"3500.00",CITY:"BARODA"},{ACTNO:"104",CNAME:"MADHURI",BNAME:"CHANDI",AMOUNT:"1200.00",CITY:"AHMEDABAD"},{ACTNO:"105",CNAME:"PRMOD",BNAME:"M.G. ROAD",AMOUNT:"3000.00",CITY:"SURAT"},{ACTNO:"106",CNAME:"SANDIP",BNAME:"ANDHERI",AMOUNT:"2000.00",CITY:"RAJKOT"},{ACTNO:"107",CNAME:"SHIVANI",BNAME:"VIRAR",AMOUNT:"1000.00",CITY:"SURAT"},{ACTNO:"108",CNAME:"KRANTI",BNAME:"NEHRU PLACE",AMOUNT:"5000.00",CITY:"RAJKOT"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6756c7790bf081afc586f61a'),
+    '1': ObjectId('6756c7790bf081afc586f61b'),
+    '2': ObjectId('6756c7790bf081afc586f61c'),
+    '3': ObjectId('6756c7790bf081afc586f61d'),
+    '4': ObjectId('6756c7790bf081afc586f61e'),
+    '5': ObjectId('6756c7790bf081afc586f61f'),
+    '6': ObjectId('6756c7790bf081afc586f620'),
+    '7': ObjectId('6756c7790bf081afc586f621')
+  }
+}
+
+19. Display all the documents of “Deposit” collection.
+db.Deposit.find()
+{
+  _id: ObjectId('6756c7790bf081afc586f61a'),
+  ACTNO: '101',
+  CNAME: 'ANIL',
+  BNAME: 'VRCE',
+  AMOUNT: '1000.00',
+  CITY: 'Rajkot'
+}
+{
+  _id: ObjectId('6756c7790bf081afc586f61b'),
+  ACTNO: '102',
+  CNAME: 'SUNIL',
+  BNAME: 'AJNI',
+  AMOUNT: '5000.00',
+  CITY: 'SURAT'
+}
+{
+  _id: ObjectId('6756c7790bf081afc586f61c'),
+  ACTNO: '103',
+  CNAME: 'MEHUL',
+  BNAME: 'KAROLBAGH',
+  AMOUNT: '3500.00',
+  CITY: 'BARODA'
+}
+{
+  _id: ObjectId('6756c7790bf081afc586f61d'),
+  ACTNO: '104',
+  CNAME: 'MADHURI',
+  BNAME: 'CHANDI',
+  AMOUNT: '1200.00',
+  CITY: 'AHMEDABAD'
+}
+{
+  _id: ObjectId('6756c7790bf081afc586f61e'),
+  ACTNO: '105',
+  CNAME: 'PRMOD',
+  BNAME: 'M.G. ROAD',
+  AMOUNT: '3000.00',
+  CITY: 'SURAT'
+}
+{
+  _id: ObjectId('6756c7790bf081afc586f61f'),
+  ACTNO: '106',
+  CNAME: 'SANDIP',
+  BNAME: 'ANDHERI',
+  AMOUNT: '2000.00',
+  CITY: 'RAJKOT'
+}
+{
+  _id: ObjectId('6756c7790bf081afc586f620'),
+  ACTNO: '107',
+  CNAME: 'SHIVANI',
+  BNAME: 'VIRAR',
+  AMOUNT: '1000.00',
+  CITY: 'SURAT'
+}
+
+20. Drop the “Deposit” collection.
+db.Deposit.drop()
+true
